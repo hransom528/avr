@@ -1,5 +1,5 @@
-#define DDRB  (*(volatile unsigned char*) 0x17)
-#define PORTB (*(volatile unsigned char*) 0x18)
+#define DDRB  (*(volatile unsigned char*) 0x37)
+#define PORTB (*(volatile unsigned char*) 0x38)
 #define F_CPU 1000000UL // 1Mhz
 
 #include <util/delay.h>
